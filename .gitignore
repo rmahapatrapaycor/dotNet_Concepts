@@ -1,0 +1,140 @@
+## .NET / C# / Visual Studio .gitignore
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio files
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.userprefs
+
+# Visual Studio Code
+.vscode/
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+artifacts/
+packages/
+nuget.config
+
+# MSBuild
+*.binlog
+
+# Rider
+.idea/
+*.sln.iml
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# dotCover
+*.dotCover
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# MightyMoose
+AutoTest.Net/
+
+# Backup & temp files
+*.bak
+*.cache
+*.ilk
+*.log
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.vspscc
+*.vssscc
+.builds
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config files
+Desktop.ini
+
+# Recycle Bin
+$RECYCLE.BIN/
+
+# VS Code launch config (optional - remove if you want to share)
+.vscode/launch.json
+.vscode/tasks.json
+
+# ASP.NET / Web
+wwwroot/lib/
+node_modules/
+bower_components/
+
+# Publish output
+**/publish/
+PublishProfiles/
+
+# Entity Framework
+*.edmx.diagram
+migrations/.gitkeep
+
+# Azure
+ServiceFabricBackup/
+*.pfx
+*.publishsettings
+orleans.codegen.cs
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# Coverage
+coverage*/
+*.coverage
+*.coveragexml
+
+# Benchmark results
+BenchmarkDotNet.Artifacts/
+
+# Secrets & config overrides (never commit these)
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+*.pfx
+*.p12
+
+# OS files
+.DS_Store
